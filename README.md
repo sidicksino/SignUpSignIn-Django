@@ -9,7 +9,7 @@ python -m venv venv
 # Windows:
 venv\Scripts\activate
 # macOS/Linux:
-# source venv/bin/activate
+source venv/bin/activate
 
 # 4. Upgrade pip and install Django
 python -m pip install --upgrade pip
