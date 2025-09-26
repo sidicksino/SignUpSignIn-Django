@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    135deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  background-color: #22c1c3;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  width: 350px;
+}
+
+.header {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.form {
+  display: grid;
+  gap: 15px;
+}
+
+.form input {
+  padding: 12px 15px;
+  border: 1px solid #00ffaa;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Effet focus sur input */
+.form input:focus {
+  border-color: #0077ff;
+  box-shadow: 0 0 8px rgba(0, 119, 255, 0.4);
+}
+
+/* Style du bouton */
+.form button {
+  background: #0077ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Effet hover bouton */
+.form button:hover {
+  background: #005bcc;
+}
+.link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0px;
+    text-align: right;
+    padding-top: 15px;
+    color: white;
+}
